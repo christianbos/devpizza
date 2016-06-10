@@ -14,6 +14,11 @@
 		AA0EE4281D00E31100FEAB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0EE4261D00E31100FEAB08 /* LaunchScreen.storyboard */; };
 		AA0EE4331D00E31200FEAB08 /* InstaPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EE4321D00E31200FEAB08 /* InstaPizzaTests.swift */; };
 		AA0EE43E1D00E31200FEAB08 /* InstaPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EE43D1D00E31200FEAB08 /* InstaPizzaUITests.swift */; };
+		AA0EE44C1D00EE4000FEAB08 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EE44B1D00EE4000FEAB08 /* ViewController2.swift */; };
+		AA13FB251D0B56D600E986E5 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13FB241D0B56D600E986E5 /* ViewController3.swift */; };
+		AA13FB271D0B570600E986E5 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13FB261D0B570600E986E5 /* ViewController4.swift */; };
+		AA13FB291D0B571800E986E5 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13FB281D0B571800E986E5 /* ViewController5.swift */; };
+		AA13FB2B1D0B572700E986E5 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13FB2A1D0B572700E986E5 /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		AA0EE4391D00E31200FEAB08 /* InstaPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0EE43D1D00E31200FEAB08 /* InstaPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaPizzaUITests.swift; sourceTree = "<group>"; };
 		AA0EE43F1D00E31200FEAB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0EE44B1D00EE4000FEAB08 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
+		AA13FB241D0B56D600E986E5 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		AA13FB261D0B570600E986E5 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		AA13FB281D0B571800E986E5 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		AA13FB2A1D0B572700E986E5 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 				AA0EE41D1D00E31100FEAB08 /* AppDelegate.swift */,
 				AA0EE41F1D00E31100FEAB08 /* ViewController.swift */,
 				AA0EE4211D00E31100FEAB08 /* Main.storyboard */,
+				AA0EE44B1D00EE4000FEAB08 /* ViewController2.swift */,
 				AA0EE4241D00E31100FEAB08 /* Assets.xcassets */,
 				AA0EE4261D00E31100FEAB08 /* LaunchScreen.storyboard */,
 				AA0EE4291D00E31200FEAB08 /* Info.plist */,
+				AA13FB241D0B56D600E986E5 /* ViewController3.swift */,
+				AA13FB261D0B570600E986E5 /* ViewController4.swift */,
+				AA13FB281D0B571800E986E5 /* ViewController5.swift */,
+				AA13FB2A1D0B572700E986E5 /* ViewController6.swift */,
 			);
 			path = InstaPizza;
 			sourceTree = "<group>";
@@ -258,6 +273,11 @@
 			files = (
 				AA0EE4201D00E31100FEAB08 /* ViewController.swift in Sources */,
 				AA0EE41E1D00E31100FEAB08 /* AppDelegate.swift in Sources */,
+				AA13FB2B1D0B572700E986E5 /* ViewController6.swift in Sources */,
+				AA13FB251D0B56D600E986E5 /* ViewController3.swift in Sources */,
+				AA0EE44C1D00EE4000FEAB08 /* ViewController2.swift in Sources */,
+				AA13FB291D0B571800E986E5 /* ViewController5.swift in Sources */,
+				AA13FB271D0B570600E986E5 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				AA0EE4441D00E31200FEAB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA0EE4451D00E31200FEAB08 /* Build configuration list for PBXNativeTarget "InstaPizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				AA0EE4471D00E31200FEAB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA0EE4481D00E31200FEAB08 /* Build configuration list for PBXNativeTarget "InstaPizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				AA0EE44A1D00E31200FEAB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
