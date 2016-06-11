@@ -13,6 +13,9 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var pass: UIButton!
     
+    @IBAction func view2(sender: AnyObject) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

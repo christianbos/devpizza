@@ -8,7 +8,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -33,6 +32,9 @@
                                 <state key="normal" title="Configura tu boton!">
                                     <color key="titleColor" red="1" green="0.97122929300368344" blue="0.98029737873383604" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="view2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G7G-GU-DyY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -42,13 +44,14 @@
                         <outlet property="pass" destination="tFq-Rd-uAy" id="S79-zl-zhP"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="198" y="328"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="3cD-Og-gow">
             <objects>
-                <viewController id="K8b-Pm-PCc" customClass="ViewController2" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="2" id="K8b-Pm-PCc" customClass="ViewController2" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OE7-UG-Gja">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +98,7 @@
         <!--View Controller3-->
         <scene sceneID="Nrr-D3-PbD">
             <objects>
-                <viewController id="hnG-yy-eoN" customClass="ViewController3" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="3" id="hnG-yy-eoN" customClass="ViewController3" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zft-Yl-LEm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,7 +156,7 @@
         <!--View Controller4-->
         <scene sceneID="35d-cF-ycl">
             <objects>
-                <viewController id="MG1-MC-WDQ" customClass="ViewController4" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="4" id="MG1-MC-WDQ" customClass="ViewController4" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqK-2q-EMa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,7 +228,7 @@
         <!--View Controller5-->
         <scene sceneID="eUq-Ze-K7j">
             <objects>
-                <viewController id="Noh-ss-hOd" customClass="ViewController5" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="5" id="Noh-ss-hOd" customClass="ViewController5" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3H2-ah-wRm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,7 +329,7 @@
         <!--View Controller6-->
         <scene sceneID="IEw-f8-TuG">
             <objects>
-                <viewController id="T45-Dd-ZKH" customClass="ViewController6" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="6" id="T45-Dd-ZKH" customClass="ViewController6" customModule="InstaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8uB-h6-1O1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
